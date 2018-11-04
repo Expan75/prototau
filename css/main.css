@@ -341,6 +341,18 @@ article {
 
 /* --------- Closes Content2 --------- */
 
+/* --------- Meet the team ---------*/
+
+.team-field{
+  background-color: #2F4F4F;
+}
+#team{
+  text-align: center;
+}
+.panel{
+  background-color: #778899;
+}
+
 /* --------- Content 3 - Sponsorship Field --------- */
 
 .sponsor-field {
