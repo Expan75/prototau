@@ -13,3 +13,6 @@ All in all, the components will be in the following order:
 8. Footer /w contact information
 
 ** Everything needs to be responsive so make use of bootstrap **
+
+Robin
+For 5.: My proposal is to create a addtional html file for the team and just include this into the index.html file. Functionality would be the same as I created in the index.html file.
