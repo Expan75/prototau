@@ -117,11 +117,11 @@
         </div>
 
         <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
+        <a class="left carousel-control" id="left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" style="left: 15px; right: 15px;"></span>
         </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
+        <a class="right carousel-control" id="right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" style="right: 25px; left: 15px;"></span>
         </a>
     </header>
 
@@ -186,6 +186,93 @@
         </div>
     </div>
     <!-- closing 1st Parallax divider -->
+    
+    <!-- Meet the Team -->
+    <div class="container-fluid team-field">
+        <div>
+            <h1 id="team">
+                <span>Meet the team</span>
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="panel-group" id="accordion">
+                    <div class="panel">
+                      <div class="panel-heading">
+                        <h4 class="panel-title" id="team">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" id="team">
+                            <img src="https://placehold.it/150x80?text=IMAGE" style="width: 100%;"><br>
+                            Name
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapse1" class="panel-collapse collapse out">
+                        <div class="panel-body">
+                            Some information about the team member.
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel-group" id="accordion">
+                    <div class="panel">
+                      <div class="panel-heading">
+                        <h4 class="panel-title" id="team">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" id="team">
+                            <img src="https://placehold.it/150x80?text=IMAGE" style="width: 100%;"><br>
+                            Name
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapse2" class="panel-collapse collapse out">
+                        <div class="panel-body">
+                            Some information about the team member.
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel-group" id="accordion">
+                    <div class="panel">
+                      <div class="panel-heading">
+                        <h4 class="panel-title" id="team">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" id="team">
+                            <img src="https://placehold.it/150x80?text=IMAGE" style="width: 100%;"><br>
+                            Name
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapse3" class="panel-collapse collapse out">
+                        <div class="panel-body">
+                            Some information about the team member.
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="panel-group" id="accordion">
+                    <div class="panel">
+                      <div class="panel-heading">
+                        <h4 class="panel-title" id="team">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" id="team">
+                            <img src="https://placehold.it/150x80?text=IMAGE" style="width: 100%;"><br>
+                            Name
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapse4" class="panel-collapse collapse out">
+                        <div class="panel-body">
+                            Some information about the team member.
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container-fluid">
         <div class="row sponsor-field">
@@ -273,6 +360,17 @@
 
     <!-- Nav Element Resize -->
     <script src="js/resize.js"></script>
+    
+    <!-- Meet the Team Hover -->
+    <script>
+    $(".panel-heading").parent('.panel').hover(
+        function() {
+          $(this).children('.collapse').collapse('show');
+        }, function() {
+          $(this).children('.collapse').collapse('hide');
+        }
+    );
+    </script>
 
 </body>
 

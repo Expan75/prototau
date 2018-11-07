@@ -125,7 +125,20 @@ article {
   color: #ffffff;
   background: rgb(255,255,255,0.3);
 }
-
+.carousel-control#left{
+  margin: auto;
+  height: 7%;
+  width: 50px;
+  border-top-right-radius:  30px;
+  border-bottom-right-radius: 30px;
+}
+.carousel-control#right{
+  margin: auto;
+  height: 7%;
+  width: 50px;
+  border-top-left-radius:  30px;
+  border-bottom-left-radius: 30px;
+}
 
 /* ----- Circle Header Stylings & Animation ------ */
 
@@ -341,6 +354,18 @@ article {
 
 /* --------- Closes Content2 --------- */
 
+/* --------- Meet the team ---------*/
+
+.team-field{
+  background-color: #2F4F4F;
+}
+#team{
+  text-align: center;
+}
+.panel{
+  background-color: #778899;
+}
+
 /* --------- Content 3 - Sponsorship Field --------- */
 
 .sponsor-field {
@@ -352,7 +377,7 @@ article {
   width: 100%;
 }
 #kpmg-img {
-
+  
 }
 /* Fluid-container Overwrite Stylings */
 
