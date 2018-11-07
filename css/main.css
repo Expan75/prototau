@@ -78,7 +78,9 @@ article {
 }
 
 /* -------------- End of Navbar Styling -------------- */
-
+.carousel{
+  width: 100%;
+}
 .carousel,
 .item,
 .active {
@@ -125,7 +127,24 @@ article {
   color: #ffffff;
   background: rgb(255,255,255,0.3);
 }
-
+.carousel-control#left{
+  margin: auto;
+  height: 7%;
+  width: 35px;
+  border-top-right-radius:  30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius:  5px;
+  border-bottom-left-radius: 5px;
+}
+.carousel-control#right{
+  margin: auto;
+  height: 7%;
+  width: 35px;
+  border-top-right-radius:  5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius:  30px;
+  border-bottom-left-radius: 30px;
+}
 
 /* ----- Circle Header Stylings & Animation ------ */
 
