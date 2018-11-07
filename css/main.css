@@ -78,9 +78,7 @@ article {
 }
 
 /* -------------- End of Navbar Styling -------------- */
-.carousel{
-  width: 100%;
-}
+
 .carousel,
 .item,
 .active {
@@ -130,18 +128,14 @@ article {
 .carousel-control#left{
   margin: auto;
   height: 7%;
-  width: 35px;
+  width: 50px;
   border-top-right-radius:  30px;
   border-bottom-right-radius: 30px;
-  border-top-left-radius:  5px;
-  border-bottom-left-radius: 5px;
 }
 .carousel-control#right{
   margin: auto;
   height: 7%;
-  width: 35px;
-  border-top-right-radius:  5px;
-  border-bottom-right-radius: 5px;
+  width: 50px;
   border-top-left-radius:  30px;
   border-bottom-left-radius: 30px;
 }
@@ -383,7 +377,7 @@ article {
   width: 100%;
 }
 #kpmg-img {
-
+  
 }
 /* Fluid-container Overwrite Stylings */
 
