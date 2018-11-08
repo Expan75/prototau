@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+    
+        <title>PrototAU</title>
+    
+        <!-- Title Icon -->
+        <link href="resources/favicon.ico" rel="shortcut icon"/>
+    
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+    
+        <!-- Custom CSS -->
+        <link href="css/main.css" rel="stylesheet">
+    
+        <!-- Custom Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+    
+        <!-- Main Javascript & jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    
+    </head>
+    <body>
+        <div class="container-fluid team-field">
+            <div>
+                <h1 id="team">
+                    <span>Meet the team</span>
+                </h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel">
+                          <div class="panel-heading">
+                            <h4 class="panel-title" id="team">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" id="team">
+                                <img src="https://placehold.it/150x80?text=IMAGE" style="width: 100%;"><br>
+                                Name
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapse1" class="panel-collapse collapse out">
+                            <div class="panel-body">
+                                Some information about the team member.
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel">
+                          <div class="panel-heading">
+                            <h4 class="panel-title" id="team">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" id="team">
+                                <img src="https://placehold.it/150x80?text=IMAGE" style="width: 100%;"><br>
+                                Name
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapse2" class="panel-collapse collapse out">
+                            <div class="panel-body">
+                                Some information about the team member.
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel">
+                          <div class="panel-heading">
+                            <h4 class="panel-title" id="team">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" id="team">
+                                <img src="https://placehold.it/150x80?text=IMAGE" style="width: 100%;"><br>
+                                Name
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapse3" class="panel-collapse collapse out">
+                            <div class="panel-body">
+                                Some information about the team member.
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel">
+                          <div class="panel-heading">
+                            <h4 class="panel-title" id="team">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" id="team">
+                                <img src="https://placehold.it/150x80?text=IMAGE" style="width: 100%;"><br>
+                                Name
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapse4" class="panel-collapse collapse out">
+                            <div class="panel-body">
+                                Some information about the team member.
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+    
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!-- Meet the Team Hover -->
+        <script>
+        $(".panel-heading").parent('.panel').hover(
+            function() {
+              $(this).children('.collapse').collapse('show');
+            }, function() {
+              $(this).children('.collapse').collapse('hide');
+            }
+        );
+        </script>
+    </body>
+</html>
