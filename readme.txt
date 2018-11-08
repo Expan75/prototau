@@ -16,3 +16,5 @@ All in all, the components will be in the following order:
 
 Robin
 For 5.: My proposal is to create a addtional html file for the team and just include this into the index.html file. Functionality would be the same as I created in the index.html file.
+
+For 2.: Changed the buttons.
